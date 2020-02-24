@@ -1,0 +1,342 @@
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium.openBase(): Agent = eyes.selenium.javascript/4.33.15
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium.openBase(): openBase('Vuejs.org Conferences', 'Appium on Android', 'undefined')
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo called.
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} (): axios request interceptor - renderInfo [1--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/renderinfo with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium._logOpenBase(): Eyes server URL is 'https://eyesapi.applitools.com'
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium._logOpenBase(): Timeout = 'undefined'
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium._logOpenBase(): matchTimeout = '2000'
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium._logOpenBase(): Default match settings = 'ImageMatchSettings { {"matchLevel":"Strict","accessibilityLevel":"None","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]} }'
+2020-02-24T14:20:51Z Eyes: [VERBOSE] {} EyesSelenium._logOpenBase(): FailureReports = 'ON_CLOSE'
+2020-02-24T14:20:52Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderInfo [1--70965541-fef4-4fc6-b552-3ab06c620691] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/renderinfo
+2020-02-24T14:20:52Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo - post succeeded RenderingInfo { {"serviceUrl":"https://render-wus.applitools.com","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJEOVhLUkJWdVlVbUJ4WHBXV1dzQjNnfn4iLCJpYXQiOjE1ODI1NTQwNTIsImV4cCI6MTU4MjU3NTY1MiwiaXNzIjoiZXllc2FwaS5hcHBsaXRvb2xzLmNvbSxleWVzcHVibGljd3VzdGVtcC5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hXZat8_YkSYj0IF4EE-BMqSzb-9TsQjQLahYD2S-NHreQT3qAE5NmuLfzU_6K4cro4U6JHjmAtmmFyOLeCuAyt96xOasu8jeFG8fPuMaz9mK_aVb2-KE19kuAhEe81x2yeQbpwu1SFvrRCCk3lgjo1AtzU90eLYk-N97hqeoltk","resultsUrl":"https://eyespublicwustemp.blob.core.windows.net/temp/__random__?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110","stitchingServiceUrl":"https://eyesapi.applitools.com/api/images/stitching?accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"} }
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.check(): check(SeleniumCheckSettings {"ignoreCaret":true,"stitchContent":false,"timeout":-1,"ignoreRegions":[],"layoutRegions":[],"strictRegions":[],"contentRegions":[],"floatingRegions":[],"accessibilityRegions":[],"targetSelector":null,"targetElement":null,"frameChain":[],"scriptHooks":{},"name":"Home Page"}) - begin
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._createPositionProvider(): initializing position provider. stitchMode: CSS
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} CssTranslatePositionProvider.<init>(): creating CssTranslatePositionProvider
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.check(): URL: https://us.vuejs.org/
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._tryHideScrollbars(): hiding scrollbars of element (2)
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._tryHideScrollbars(): switching back to original frame
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._tryHideScrollbars(): done hiding scrollbars.
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.check(): default case
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._createPositionProvider(): initializing position provider. stitchMode: CSS
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} CssTranslatePositionProvider.<init>(): creating CssTranslatePositionProvider
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} Function.matchWindow(): CheckWindowBase(NullRegionProvider, 'Home Page', false, -1)
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium._ensureRunningSession(): No running session, calling start session...
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.startSession(): startSession()
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.startSession(): Batch is BatchInfo { {"id":"c82840ea-16c5-48b1-85ec-fa783e196afe","name":"AWS Device Farm","startedAt":"2020-02-24T14:20:44.433Z","batchSequenceName":"AWS Device Farm Batches","notifyOnCompletion":false} }
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesWebDriver.getDefaultContentViewportSize(): getDefaultContentViewportSize()
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesWebDriver.getDefaultContentViewportSize(): Extracting viewport size...
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} Function.getViewportSizeOrDisplaySize(): getViewportSizeOrDisplaySize()
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesWebDriver.getDefaultContentViewportSize(): Done! Viewport size:  412x604
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesWebDriver.getUserAgent(): user agent: Mozilla/5.0 (Linux; Android 10; Android SDK built for x86) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.185 Mobile Safari/537.36
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.startSession(): Application environment is [OS = ? HostingApp = ? DisplaySize = 412x604]
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} EyesSelenium.startSession(): Starting server session...
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession called with: SessionStartInfo { {"agentId":"eyes.selenium.javascript/4.33.15","sessionType":"SEQUENTIAL","appIdOrName":"Vuejs.org Conferences","scenarioIdOrName":"Appium on Android","batchInfo":{"id":"c82840ea-16c5-48b1-85ec-fa783e196afe","name":"AWS Device Farm","startedAt":"2020-02-24T14:20:44.433Z","batchSequenceName":"AWS Device Farm Batches","notifyOnCompletion":false},"environment":{"displaySize":{"width":412,"height":604},"inferred":"useragent:Mozilla/5.0 (Linux; Android 10; Android SDK built for x86) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.185 Mobile Safari/537.36"},"defaultMatchSettings":{"matchLevel":"Strict","accessibilityLevel":"None","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]},"compareWithParentBranch":false,"ignoreBaseline":false,"render":false,"properties":[]} }
+2020-02-24T14:21:03Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [2--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [2--70965541-fef4-4fc6-b552-3ab06c620691] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/running
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession - post succeeded RunningSession { {"id":"MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~","sessionId":"00000251819746734841","batchId":"00000251819746735146","baselineId":"9300b55e-6029-4651-a7a5-90e9745943ea.3579bc7b-2610-4b2d-825e-48cd4b328977.hlkWKvod_rIl_5lEUq7wh93rHNpHGgK4ORXeYRbrsTk_.","url":"https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","isNewSession":false} }
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {} EyesSelenium.startSession(): Server session ID is MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~
+2020-02-24T14:21:05Z Eyes: [LOG    ] {} EyesSelenium.startSession(): --- Test started - 'Appium on Android' of 'Vuejs.org Conferences' "[OS = ? HostingApp = ? DisplaySize = 412x604]
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._ensureRunningSession(): Done!
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {00000251819746734841} Function.matchWindow(): Calling match window...
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {00000251819746734841} MatchWindowTask.matchWindow(): retryTimeout = 2000
+2020-02-24T14:21:05Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): getting screenshot...
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._updateScalingParams(): Trying to extract device pixel ratio...
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._updateScalingParams(): Device pixel ratio: 3.5
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._updateScalingParams(): Setting scale provider...
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._updateScalingParams(): Done!
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getFullPageScreenshot(): Full page screenshot requested.
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): getStitchedRegion()
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): positionProvider: CssTranslatePositionProvider; Region: (0, 0) 412x604
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): Getting top/left image...
+2020-02-24T14:21:06Z Eyes: [VERBOSE] {00000251819746734841} TakesScreenshotImageProvider.getImage(): Getting screenshot as base64...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} Function.normalizeRotation(): Trying to automatically normalize rotation...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} TakesScreenshotImageProvider.getImage(): Done getting base64! Creating MutableImage...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} ContextBasedScaleProvider.updateScaleRatio(): Calculating the scale ratio...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} ContextBasedScaleProvider.updateScaleRatio(): Final scale ratio: 0.2857142857142857
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Creating screenshot object...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getCurrentPosition(): position to return: undefined
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} EyesWebDriverScreenshot._getUpdatedFrameLocationInScreenshot(): frameLocationInScreenshot: (0, 0)
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Calculating frame window...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Done!
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Getting region in screenshot...
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Region in screenshot: (0, 0) 412x604
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Scaled region: (0, 0) 1442x2114
+2020-02-24T14:21:07Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Region after intersect: (0, 0) 1440x2114
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): Entire size of region context: 412x604
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getCurrentPosition(): position to return: undefined
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesWebDriverScreenshot._getUpdatedFrameLocationInScreenshot(): frameLocationInScreenshot: (0, 0)
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Calculating frame window...
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Done!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.restoreState(): Transform (position) restored.
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.getScreenshot(): Done!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done getting screenshot!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Getting title, domUrl, imageLocation...
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done getting title, domUrl, imageLocation!
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.setPosition(): CssTranslatePositionProvider - Setting position to: (0, 0)
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.tryCaptureDom(): Getting window DOM...
+2020-02-24T14:21:08Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:08Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.setPosition(): Done!
+2020-02-24T14:21:09Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:09Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Probably, WebElement
+2020-02-24T14:21:09Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Making preparations...
+2020-02-24T14:21:09Z Eyes: [VERBOSE] {00000251819746734841} Frame.<init>(): Frame(logger, reference, (20, 2241), 480x300, 480x300, (0, 0))
+2020-02-24T14:21:09Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done! Switching to frame...
+2020-02-24T14:21:09Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done!
+2020-02-24T14:21:09Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:10Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): enter
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Making preparations...
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} Frame.getForceScrollRootElement(): no scroll root element. selecting default.
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done! Switching to parent frame...
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done!
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Probably, WebElement
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Making preparations...
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} Frame.<init>(): Frame(logger, reference, (20, 2618), 480x300, 480x300, (0, 0))
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done! Switching to frame...
+2020-02-24T14:21:10Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done!
+2020-02-24T14:21:10Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:10Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): enter
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Making preparations...
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} Frame.getForceScrollRootElement(): no scroll root element. selecting default.
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done! Switching to parent frame...
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done!
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.postDomSnapshot(): ServerConnector.postDomSnapshot called
+2020-02-24T14:21:11Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - postDomSnapshot [3--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running/data with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - postDomSnapshot [3--70965541-fef4-4fc6-b552-3ab06c620691] - result Created, status code 201, url https://eyesapi.applitools.com/api/sessions/running/data
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.postDomSnapshot(): ServerConnector.postDomSnapshot - post succeeded
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): domUrl: https://eyesapi.applitools.com/api/sessions/running/data/1582554072_262b3d78-0439-433c-998c-57044af1418c?accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done!
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - uploadScreenshot [4--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyespublicwustemp.blob.core.windows.net/temp/0ea95de3-4096-4372-b19d-93d27fd609c9?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110 with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:12Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.restoreState(): Transform (position) restored.
+2020-02-24T14:21:14Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - uploadScreenshot [4--70965541-fef4-4fc6-b552-3ab06c620691] - result Created, status code 201, url https://eyespublicwustemp.blob.core.windows.net/temp/0ea95de3-4096-4372-b19d-93d27fd609c9?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110
+2020-02-24T14:21:14Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.matchWindow(): ServerConnector.matchWindow called with MatchWindowData { {"userInputs":[],"appOutput":{"title":"VueConf US – March 2-4, 2020 in AUSTIN, USA | Vue.js Conference","screenshotUrl":"https://eyespublicwustemp.blob.core.windows.net/temp/0ea95de3-4096-4372-b19d-93d27fd609c9?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110","domUrl":"https://eyesapi.applitools.com/api/sessions/running/data/1582554072_262b3d78-0439-433c-998c-57044af1418c?accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110","location":{"x":0,"y":0}},"tag":"Home Page","ignoreMismatch":true,"options":{"name":"Home Page","userInputs":[],"ignoreMismatch":true,"ignoreMatch":false,"forceMismatch":false,"forceMatch":false,"imageMatchSettings":{"matchLevel":"Strict","accessibilityLevel":"None","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"exact":null,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]}}} } for session: RunningSession { {"id":"MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~","sessionId":"00000251819746734841","batchId":"00000251819746735146","baselineId":"9300b55e-6029-4651-a7a5-90e9745943ea.3579bc7b-2610-4b2d-825e-48cd4b328977.hlkWKvod_rIl_5lEUq7wh93rHNpHGgK4ORXeYRbrsTk_.","url":"https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","isNewSession":false} }
+2020-02-24T14:21:14Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - matchWindow [5--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~ with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - matchWindow [5--70965541-fef4-4fc6-b552-3ab06c620691] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.matchWindow(): ServerConnector.matchWindow - post succeeded MatchResult { {"asExpected":true} }
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} MatchWindowTask._takeScreenshot(): Completed in 10s 338.7873359999994ms
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.checkWindowBase(): MatchWindow Done!
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.checkWindowBase(): Done!
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.resetScroll(): enter
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:15Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryRestoreScrollbars(): returning overflow of element to its original value
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryRestoreScrollbars(): done restoring scrollbars.
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:16Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.check(): check - done!
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.check(): check(SeleniumCheckSettings {"ignoreCaret":true,"stitchContent":false,"timeout":-1,"ignoreRegions":[],"layoutRegions":[],"strictRegions":[],"contentRegions":[],"floatingRegions":[],"accessibilityRegions":[],"targetSelector":null,"targetElement":null,"frameChain":[],"scriptHooks":{},"name":"Home Loans"}) - begin
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._createPositionProvider(): initializing position provider. stitchMode: CSS
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.<init>(): creating CssTranslatePositionProvider
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.check(): URL: https://us.vuejs.org/#location
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryHideScrollbars(): hiding scrollbars of element (2)
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryHideScrollbars(): switching back to original frame
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryHideScrollbars(): done hiding scrollbars.
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.check(): default case
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._createPositionProvider(): initializing position provider. stitchMode: CSS
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.<init>(): creating CssTranslatePositionProvider
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} Function.matchWindow(): CheckWindowBase(NullRegionProvider, 'Home Loans', false, -1)
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._ensureRunningSession(): session already running.
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} Function.matchWindow(): Calling match window...
+2020-02-24T14:21:17Z Eyes: [VERBOSE] {00000251819746734841} MatchWindowTask.matchWindow(): retryTimeout = 2000
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): getting screenshot...
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getFullPageScreenshot(): Full page screenshot requested.
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): getStitchedRegion()
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): positionProvider: CssTranslatePositionProvider; Region: (0, 0) 412x604
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getState(): Current transform 
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): Getting top/left image...
+2020-02-24T14:21:18Z Eyes: [VERBOSE] {00000251819746734841} TakesScreenshotImageProvider.getImage(): Getting screenshot as base64...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} Function.normalizeRotation(): Trying to automatically normalize rotation...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} TakesScreenshotImageProvider.getImage(): Done getting base64! Creating MutableImage...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Creating screenshot object...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getCurrentPosition(): position to return: undefined
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} EyesWebDriverScreenshot._getUpdatedFrameLocationInScreenshot(): frameLocationInScreenshot: (0, 0)
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Calculating frame window...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Done!
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Getting region in screenshot...
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Region in screenshot: (0, 0) 412x604
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Scaled region: (0, 0) 1442x2114
+2020-02-24T14:21:19Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm._getRegionInScreenshot(): Region after intersect: (0, 0) 1440x2114
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} FullPageCaptureAlgorithm.getStitchedRegion(): Entire size of region context: 412x604
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getEntireSize(): CssTranslatePositionProvider - Entire size: 412x604
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.getCurrentPosition(): position to return: undefined
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesWebDriverScreenshot._getUpdatedFrameLocationInScreenshot(): frameLocationInScreenshot: (0, 0)
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Calculating frame window...
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} Function.fromScreenshotType(): Done!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.restoreState(): Transform (position) restored.
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.getScreenshot(): Done!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done getting screenshot!
+2020-02-24T14:21:20Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Compressing screenshot...
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Compression skipped, because of significant difference.
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Getting title, domUrl, imageLocation...
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done getting title, domUrl, imageLocation!
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.setPosition(): CssTranslatePositionProvider - Setting position to: (0, 0)
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.tryCaptureDom(): Getting window DOM...
+2020-02-24T14:21:21Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.setPosition(): Done!
+2020-02-24T14:21:21Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Probably, WebElement
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Making preparations...
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} Frame.<init>(): Frame(logger, reference, (20, -5777), 480x300, 480x300, (0, 0))
+2020-02-24T14:21:21Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done! Switching to frame...
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done!
+2020-02-24T14:21:22Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:22Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): enter
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Making preparations...
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} Frame.getForceScrollRootElement(): no scroll root element. selecting default.
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done! Switching to parent frame...
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done!
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Probably, WebElement
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Making preparations...
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} Frame.<init>(): Frame(logger, reference, (20, -5401), 480x300, 480x300, (0, 0))
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done! Switching to frame...
+2020-02-24T14:21:22Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frame(): Done!
+2020-02-24T14:21:22Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:23Z Eyes: [LOG    ] {00000251819746734841} DomCapture.getFrameDom(): executng dom capture
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): enter
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Making preparations...
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} Frame.getForceScrollRootElement(): no scroll root element. selecting default.
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.<init>(): creating ScrollPositionProvider
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} ScrollPositionProvider.setPosition(): setting position of {"id":{}} to (0, 0)
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done! Switching to parent frame...
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.parentFrame(): Done!
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.postDomSnapshot(): ServerConnector.postDomSnapshot called
+2020-02-24T14:21:23Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - postDomSnapshot [6--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running/data with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - postDomSnapshot [6--70965541-fef4-4fc6-b552-3ab06c620691] - result Created, status code 201, url https://eyesapi.applitools.com/api/sessions/running/data
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.postDomSnapshot(): ServerConnector.postDomSnapshot - post succeeded
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): domUrl: https://eyesapi.applitools.com/api/sessions/running/data/1582554084_80360692-0aa7-489f-885b-bc1835904d14?accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._getAppOutputWithScreenshot(): Done!
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - uploadScreenshot [7--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyespublicwustemp.blob.core.windows.net/temp/6b2c0853-57e4-4525-81c7-5ab999a0d6ad?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110 with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:24Z Eyes: [VERBOSE] {00000251819746734841} CssTranslatePositionProvider.restoreState(): Transform (position) restored.
+2020-02-24T14:21:28Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - uploadScreenshot [7--70965541-fef4-4fc6-b552-3ab06c620691] - result Created, status code 201, url https://eyespublicwustemp.blob.core.windows.net/temp/6b2c0853-57e4-4525-81c7-5ab999a0d6ad?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110
+2020-02-24T14:21:28Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.matchWindow(): ServerConnector.matchWindow called with MatchWindowData { {"userInputs":[],"appOutput":{"title":"VueConf US – March 2-4, 2020 in AUSTIN, USA | Vue.js Conference","screenshotUrl":"https://eyespublicwustemp.blob.core.windows.net/temp/6b2c0853-57e4-4525-81c7-5ab999a0d6ad?sv=2017-04-17&sr=c&sig=StQhxKLjNG0Vro3tbcXmZK1cNBskEQqTURvdcssAsGc%3D&se=2020-02-25T14%3A20%3A52Z&sp=w&accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110","domUrl":"https://eyesapi.applitools.com/api/sessions/running/data/1582554084_80360692-0aa7-489f-885b-bc1835904d14?accessKey=epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110","location":{"x":0,"y":0}},"tag":"Home Loans","ignoreMismatch":true,"options":{"name":"Home Loans","userInputs":[],"ignoreMismatch":true,"ignoreMatch":false,"forceMismatch":false,"forceMatch":false,"imageMatchSettings":{"matchLevel":"Strict","accessibilityLevel":"None","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"exact":null,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]}}} } for session: RunningSession { {"id":"MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~","sessionId":"00000251819746734841","batchId":"00000251819746735146","baselineId":"9300b55e-6029-4651-a7a5-90e9745943ea.3579bc7b-2610-4b2d-825e-48cd4b328977.hlkWKvod_rIl_5lEUq7wh93rHNpHGgK4ORXeYRbrsTk_.","url":"https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","isNewSession":false} }
+2020-02-24T14:21:28Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - matchWindow [8--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~ with params {"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - matchWindow [8--70965541-fef4-4fc6-b552-3ab06c620691] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.matchWindow(): ServerConnector.matchWindow - post succeeded MatchResult { {"asExpected":true} }
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} MatchWindowTask._takeScreenshot(): Completed in 11s 638.6590190000006ms
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.checkWindowBase(): MatchWindow Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.checkWindowBase(): Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.resetScroll(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryRestoreScrollbars(): returning overflow of element to its original value
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium._tryRestoreScrollbars(): done restoring scrollbars.
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.frames(): found frameChain
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): enter
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesTargetLocator.defaultContent(): Done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.check(): check - done!
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.<init>(): EyesBase.close(true)
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.<init>(): Ending server session...
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.<init>(): Automatically save test? false
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.stopSession(): ServerConnector.stopSession called with {"isAborted":false,"updateBaseline":false} for session: RunningSession { {"id":"MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~","sessionId":"00000251819746734841","batchId":"00000251819746735146","baselineId":"9300b55e-6029-4651-a7a5-90e9745943ea.3579bc7b-2610-4b2d-825e-48cd4b328977.hlkWKvod_rIl_5lEUq7wh93rHNpHGgK4ORXeYRbrsTk_.","url":"https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","isNewSession":false} }
+2020-02-24T14:21:29Z Eyes: [VERBOSE] {00000251819746734841} (): axios request interceptor - stopSession [9--70965541-fef4-4fc6-b552-3ab06c620691] will now call to https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~ with params {"aborted":false,"updateBaseline":false,"apiKey":"epZHeDhXIO5D7zOz9mekDtQVmoK8110ASgPUpRBLnID04110"}
+2020-02-24T14:21:30Z Eyes: [VERBOSE] {00000251819746734841} global.<init>(): axios response interceptor - stopSession [9--70965541-fef4-4fc6-b552-3ab06c620691] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/running/MDAwMDAyNTE4MTk3NDY3MzUxNDY~;MDAwMDAyNTE4MTk3NDY3MzQ4NDE~
+2020-02-24T14:21:30Z Eyes: [VERBOSE] {00000251819746734841} ServerConnector.stopSession(): ServerConnector.stopSession - post succeeded TestResults of existing test {"id":"00000251819746734841","name":"Appium on Android","status":"Passed","appName":"Vuejs.org Conferences","batchName":"AWS Device Farm","batchId":"00000251819746735146","branchName":"default","hostOS":"Linux","hostApp":"Chrome","hostDisplaySize":{"width":412,"height":604},"startedAt":"2020-02-24T14:21:04.666Z","duration":25,"isNew":false,"isDifferent":false,"isAborted":false,"appUrls":{"batch":"https://eyes.applitools.com/app/test-results/00000251819746735146?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","session":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"batch":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146","session":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841"},"stepsInfo":[{"name":"Home Page","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/1?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/1/edit?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~ff16c394-3bd3-4343-8aa4-b31d85b93c41","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/diff"}},{"name":"Home Loans","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/2?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/2/edit?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~1a81c309-453b-44a9-9705-cb1a6620fde3","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/diff"}}],"steps":2,"matches":2,"mismatches":0,"missing":0,"exactMatches":0,"strictMatches":0,"contentMatches":0,"layoutMatches":0,"noneMatches":0}
+2020-02-24T14:21:30Z Eyes: [VERBOSE] {00000251819746734841} EyesSelenium.<init>(): Results: TestResults of existing test {"id":"00000251819746734841","name":"Appium on Android","status":"Passed","appName":"Vuejs.org Conferences","batchName":"AWS Device Farm","batchId":"00000251819746735146","branchName":"default","hostOS":"Linux","hostApp":"Chrome","hostDisplaySize":{"width":412,"height":604},"startedAt":"2020-02-24T14:21:04.666Z","duration":25,"isNew":false,"isDifferent":false,"isAborted":false,"appUrls":{"batch":"https://eyes.applitools.com/app/test-results/00000251819746735146?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","session":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"batch":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146","session":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841"},"stepsInfo":[{"name":"Home Page","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/1?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/1/edit?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~ff16c394-3bd3-4343-8aa4-b31d85b93c41","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/1/images/diff"}},{"name":"Home Loans","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/2?accountId=D9XKRBVuYUmBxXpWWWsB3g~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251819746735146/00000251819746734841/steps/2/edit?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~1a81c309-453b-44a9-9705-cb1a6620fde3","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251819746735146/00000251819746734841/steps/2/images/diff"}}],"steps":2,"matches":2,"mismatches":0,"missing":0,"exactMatches":0,"strictMatches":0,"contentMatches":0,"layoutMatches":0,"noneMatches":0,"url":"https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~"}
+2020-02-24T14:21:30Z Eyes: [LOG    ] {00000251819746734841} EyesSelenium.<init>(): --- Test passed. See details at https://eyes.applitools.com/app/batches/00000251819746735146/00000251819746734841?accountId=D9XKRBVuYUmBxXpWWWsB3g~~

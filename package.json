@@ -1,0 +1,21 @@
+{
+  "name": "appium-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "appium": "npx appium --chromedriver-executable /usr/local/bin/chromedriver --log ./appium.log",
+    "test": "node appium.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "@applitools/eyes-selenium": "^4.33.15"
+  },
+  "bundledDependencies": [
+    "selenium-webdriver",
+    "@applitools/eyes-selenium"
+  ]
+}
