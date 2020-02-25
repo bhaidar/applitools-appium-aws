@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "appium": "npx appium --chromedriver-executable /usr/local/bin/chromedriver --log ./appium.log",
+    "appium": "appium --chromedriver-executable /usr/local/bin/chromedriver --log ./appium.log",
     "test": "node appium.js"
   },
   "keywords": [],

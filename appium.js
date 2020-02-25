@@ -22,12 +22,19 @@
     eyes.setBatch(batchInfo);
 
     const capabilities = {
-        platformName: 'Android',
-        deviceName: 'Android Emulator',
+        platformName: "Android",
+        deviceName: "Android Emulator",
+        automationName: "UiAutomator2",
         browserName: 'Chrome',
         waitforTimeout: 30000,
         commandTimeout: 30000,
     };
+
+    console.log(process.env.APPIUM_ENV);
+
+    if (process.env.APPIUM_ENV === "Local") {
+        capabilities["avd"] = 'Pixel_XL_API_29';
+    }
     
     // Open browser.
     let driver = new webdriver
