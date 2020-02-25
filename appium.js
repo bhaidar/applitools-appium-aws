@@ -65,7 +65,7 @@
         console.log("H2 Text: ", await h2.getText());
 
         // Visual checkpoint #2.
-        await eyes.check('Home Loans', Target.window());
+        await eyes.check('Locations', Target.window());
 
         // Close Eyes
         await eyes.close();
