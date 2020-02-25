@@ -30,8 +30,6 @@
         commandTimeout: 30000,
     };
 
-    console.log(process.env.APPIUM_ENV);
-
     if (process.env.APPIUM_ENV === "Local") {
         capabilities["avd"] = 'Pixel_XL_API_29';
     }
@@ -54,7 +52,7 @@
 
         // display title of the page
         await driver.getTitle().then(function (title) {
-            console.log(title)
+            console.log("Title: ", title);
         });
 
         // locate and click the burger button
@@ -65,6 +63,7 @@
 
         const h2 = await driver.wait(webdriver.until.elementLocated(webdriver.By.xpath("(//h2[@class='section-title'])[4]")), 2000);
         console.log(await h2.getText());
+        console.log("Location Header: ", await h2.getText());
 
         // Visual checkpoint #2.
         await eyes.check('Home Loans', Target.window());
