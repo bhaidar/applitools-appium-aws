@@ -62,8 +62,7 @@
         await driver.wait(webdriver.until.elementLocated(webdriver.By.xpath("//nav[2]/ul/li[3]/a[contains(text(), 'Location')]")), 2000).click();
 
         const h2 = await driver.wait(webdriver.until.elementLocated(webdriver.By.xpath("(//h2[@class='section-title'])[4]")), 2000);
-        console.log(await h2.getText());
-        console.log("Location Header: ", await h2.getText());
+        console.log("H2 Text: ", await h2.getText());
 
         // Visual checkpoint #2.
         await eyes.check('Home Loans', Target.window());

@@ -119,4 +119,7 @@ temp/
 # Ignore all local history of files
 .history
 
+appium.log
+eyes.log
+
 # End of https://www.gitignore.io/api/node,visualstudiocode
